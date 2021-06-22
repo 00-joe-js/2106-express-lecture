@@ -8,6 +8,7 @@ server.on("request", (req, res) => {
         res.write(`
             <h1>Hello there!</h1>
         `);
+        
         res.end();
     } else {
         res.writeHead(404, { "Content-Type": "text/plain" });

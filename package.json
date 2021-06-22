@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/00-joe-js/2106-express-lecture#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }
